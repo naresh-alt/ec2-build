@@ -9,8 +9,8 @@ version = "~> 5.0"
 #configure provider
 provider "aws" {
 region = "us-east-1"
-access_key = 
-secret_key = 
+access_key = $CREDS
+secret_key = $CREDS
 }
 #Configuration for Network Setup
 # Creating a VPC
